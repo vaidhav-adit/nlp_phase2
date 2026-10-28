@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "corpus_count",
+      "status": "PASS",
+      "detail": "4192 corpus rows"
+    },
+    {
+      "check": "source_id_uniqueness",
+      "status": "PASS",
+      "detail": "4192 unique IDs"
+    },
+    {
+      "check": "document_manifest_alignment",
+      "status": "PASS",
+      "detail": "manifest row order and IDs match corpus"
+    },
+    {
+      "check": "mapping_completeness",
+      "status": "PASS",
+      "detail": "4192 positions"
+    },
+    {
+      "check": "mapping_id_alignment",
+      "status": "PASS",
+      "detail": "every vector position maps to its source row ID"
+    },
+    {
+      "check": "embedding_shape",
+      "status": "PASS",
+      "detail": "(4192, 384)"
+    },
+    {
+      "check": "embedding_finite",
+      "status": "PASS",
+      "detail": "no NaN/Inf values"
+    },
+    {
+      "check": "embedding_unit_norms",
+      "status": "PASS",
+      "detail": "norm range [0.9999999, 1.0000001]"
+    },
+    {
+      "check": "faiss_count_dimension",
+      "status": "PASS",
+      "detail": "ntotal=4192; d=384"
+    },
+    {
+      "check": "faiss_exact_inner_product",
+      "status": "PASS",
+      "detail": "type=IndexFlatIP; metric=0"
+    },
+    {
+      "check": "manifest_model_revision",
+      "status": "PASS",
+      "detail": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+    },
+    {
+      "check": "manifest_index_alignment",
+      "status": "PASS",
+      "detail": "manifest and loaded index agree"
+    },
+    {
+      "check": "reload_search_reproducible",
+      "status": "PASS",
+      "detail": "repeated top-5 IDs/scores match"
+    },
+    {
+      "check": "saved_smoke_results_reproduced",
+      "status": "PASS",
+      "detail": "top-5 positions match embedding notebook manifest"
+    },
+    {
+      "check": "model_revision_reloaded",
+      "status": "PASS",
+      "detail": "snapshot=1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+    },
+    {
+      "check": "saved_artifacts_exist",
+      "status": "PASS",
+      "detail": "{'embeddings': {'bytes': 6439040, 'sha256': '4afce382462db42ebc83424abb43f46974aaa228f8c0d7362d2f2b6a01b0b0c7'}, 'index': {'bytes': 6438957, 'sha256': '8fc32e5f43c0313f4900a3149d241fd41f898939a5a460f1f9ef03c827013e3e'}, 'mapping': {'bytes': 174982, 'sha256': 'e040b41657776df7d68cdd12fbb8b8ed9e4de19213c674f2816b14cc6c8fc958'}, 'config': {'bytes': 4824, 'sha256': 'c86df76bd84c02c464a1873f1b43dcb08e8db6db5c2fcf0fe97d9345d02ccb90'}}"
+    }
+  ],
+  "artifacts": {
+    "embeddings": {
+      "bytes": 6439040,
+      "sha256": "4afce382462db42ebc83424abb43f46974aaa228f8c0d7362d2f2b6a01b0b0c7"
+    },
+    "index": {
+      "bytes": 6438957,
+      "sha256": "8fc32e5f43c0313f4900a3149d241fd41f898939a5a460f1f9ef03c827013e3e"
+    },
+    "mapping": {
+      "bytes": 174982,
+      "sha256": "e040b41657776df7d68cdd12fbb8b8ed9e4de19213c674f2816b14cc6c8fc958"
+    },
+    "config": {
+      "bytes": 4824,
+      "sha256": "c86df76bd84c02c464a1873f1b43dcb08e8db6db5c2fcf0fe97d9345d02ccb90"
+    }
+  },
+  "smoke_queries": [
+    "How does a player repair damaged equipment?",
+    "How can connection problems be troubleshot?",
+    "What are the steps to unlock a new ability?"
+  ]
+}

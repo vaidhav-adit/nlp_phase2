@@ -1,0 +1,46 @@
+{
+  "status": "C0_C1_COMPLETE_C2_REVIEW_PENDING",
+  "dataset": "ChronoPlay-QA Claude Verified v1.1",
+  "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "device": "cpu",
+  "index_file": "Phase2/DocumentBuilding/indexes/chronoplay_minilm_faiss_index_v1.faiss",
+  "development_queries": 188,
+  "development_qrels": 251,
+  "excluded_qids": [
+    "181"
+  ],
+  "test_evaluated": false,
+  "conditions": {
+    "C0": "original English question",
+    "C1": "Unicode NFC, HTML entity/tag handling only when present, whitespace collapse",
+    "C2": "not applied; correction inventory requires user review"
+  },
+  "top_k": 100,
+  "metric_definitions": "protocol graded nDCG gains 3/1; Grade2-only MRR/Recall; any-positive hit; macro by query; no-grade2 query metrics reported as undefined plus BM25-compatible macro-as-zero fields",
+  "bootstrap": {
+    "seed": 42,
+    "replicates": 10000,
+    "paired": "C1 minus C0"
+  },
+  "latency_seconds": {
+    "C0": {
+      "total_seconds": 1.0003611669999373,
+      "mean_seconds": 0.005321070037233709
+    },
+    "C1": {
+      "total_seconds": 0.6778072089982743,
+      "mean_seconds": 0.0036053574946716717
+    }
+  },
+  "c2_inventory_file": "Phase2/CleaningExperiments/outputs/c2_correction_inventory_proposed_v1.csv",
+  "c2_user_reviewed": false,
+  "outputs": [
+    "Phase2/CleaningExperiments/outputs/cleaned_queries_C0_C1_v1.csv",
+    "Phase2/CleaningExperiments/outputs/dense_ranked_run_C0_C1_v1.csv",
+    "Phase2/CleaningExperiments/outputs/per_query_metrics_C0_C1_v1.csv",
+    "Phase2/CleaningExperiments/outputs/metrics_comparison_C0_C1_v1.csv",
+    "Phase2/CleaningExperiments/outputs/metrics_by_game_task_C0_C1_v1.csv",
+    "Phase2/CleaningExperiments/outputs/paired_differences_C1_vs_C0_v1.csv"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "experiment": "ChronoPlay-QA Phase 1 development BM25 baseline",
+  "protocol_status": "READY TO EXPERIMENT",
+  "effective_development_queries": 188,
+  "development_qrels": 251,
+  "qrel_grade_counts": {
+    "2": 223,
+    "1": 28
+  },
+  "queries_without_positive_qrel": 0,
+  "corpus_documents": 4192,
+  "ranked_rows": 788096,
+  "metrics_macro_by_query": {
+    "n_queries": 188,
+    "ndcg10": 0.6931526102323657,
+    "g2_mrr10": 0.646901384667342,
+    "g2_recall5": 0.763377432260411,
+    "g2_recall10": 0.8325263684306238,
+    "any_hit5": 0.8085106382978723,
+    "any_hit10": 0.8723404255319149,
+    "g1_retrieved10": 0.10106382978723404,
+    "g2_retrieved10": 0.9095744680851063,
+    "n_queries_without_grade2_qrel": 2
+  },
+  "latency_seconds": {
+    "index_build": 0.49743549997219816,
+    "query_total": 1.2549977973103523,
+    "query_mean": 0.006675520198459321,
+    "query_median": 0.005418083484983072,
+    "query_p95": 0.013088532883557491,
+    "query_min": 0.002696292009204626,
+    "query_max": 0.05371445801574737
+  },
+  "settings": {
+    "algorithm": "Okapi BM25 with Robertson-Sparck Jones positive IDF",
+    "k1": 1.2,
+    "b": 0.75,
+    "idf": "ln(1 + (N - df + 0.5) / (df + 0.5))",
+    "document_text": "raw title + newline + raw contents",
+    "query_text": "original English question only",
+    "tokenizer": "Unicode casefold then regex (?u)\\b\\w\\w+\\b; unigrams only; no stopword removal/stemming",
+    "stopwords": "none",
+    "stemming": "none",
+    "game_filter": "none",
+    "ranked_documents_per_query": 4192,
+    "tie_break": "document_id ascending",
+    "qrels": "ChronoPlay_qrels_FINAL_CLAUDE_VERIFIED.csv; development QIDs only",
+    "excluded_development_qid": {
+      "181": "Near-duplicate of locked test QID 184; excluded before retrieval/evaluation."
+    },
+    "test_evaluated": false,
+    "answer_reference_retrieved_docs_used_as_input": false
+  },
+  "runtime": {
+    "python": "3.13.7",
+    "platform": "macOS-15.8.1-arm64-arm-64bit-Mach-O"
+  },
+  "sha256": {
+    "corpus": "9eafff952b571e4a06256c9cde5fd69bc4bf330ee2ba00accee389a3cbc49f3d",
+    "queries": "9d0e48ec11215be69adec605e38c716cfc79928741b9a1ed3bda1bfaec4706d5",
+    "qrels": "ef540657e78591aed596e388633aa0ec388f4910d884125431487d103efb097c",
+    "train_query_assignments": "ac90532f64ad5c01f85ad966e68d4bf110659de1e02726ce739945057ba1f92e",
+    "validation_query_assignments": "3d6e90bc9109a02fe100e3eabb3831d726628c5b24e4d70791f59c0a20407ff0"
+  },
+  "artifacts": {
+    "ranked_run": "ChronoPlay_BM25_dev_run_v1.csv",
+    "group_metrics": "ChronoPlay_BM25_dev_group_metrics_v1.csv"
+  }
+}

@@ -1,0 +1,9 @@
+comparison,metric,n_queries,mean_difference,ci95_low,ci95_high,bootstrap_seed,bootstrap_replicates
+C1-C0,ndcg10,188,0.0,0.0,0.0,42,10000
+C1-C0,g2_mrr10,188,0.0,0.0,0.0,42,10000
+C1-C0,g2_recall5,188,0.0,0.0,0.0,42,10000
+C1-C0,g2_recall10,188,0.0,0.0,0.0,42,10000
+C1-C0,any_hit5,188,0.0,0.0,0.0,42,10000
+C1-C0,any_hit10,188,0.0,0.0,0.0,42,10000
+C1-C0,g1_retrieved10,188,0.0,0.0,0.0,42,10000
+C1-C0,g2_retrieved10,188,0.0,0.0,0.0,42,10000

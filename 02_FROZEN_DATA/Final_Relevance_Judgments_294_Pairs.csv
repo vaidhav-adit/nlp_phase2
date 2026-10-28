@@ -1,0 +1,295 @@
+query_id,corpus_doc_id,relevance,game_name,title,status,evidence_method,evidence_char_pos,evidence_word_idx
+0,10d746bb-8e05-430a-82a7-19f05fbc98cb,2,dune,Shield Wall _Mentat Ability,strong,title,0,0
+0,1c653277-d1d8-43c7-9646-f6f01f78ba36,2,dune,Hunter Seeker,strong,title,0,0
+0,27903a5a-4299-4ccc-b9d1-b0039f9ee08b,2,dune,Hunter-Seeker,strong,title,0,0
+0,3e28df5e-ef73-4131-b157-793e80819e1b,2,dune,Bene Gesserit,strong,title,0,0
+0,5177a80d-2857-4629-bafc-e7f5aa4cd203,2,dune,Battlefield Calculation,strong,title,0,0
+0,57613ea7-2029-4a1f-8f19-c358596a6fb2,2,dune,Hunter Seeker,strong,title,0,0
+0,6a9e0e53-8cfb-4bd0-895c-c8d1d45de6ce,2,dune,Mentat,strong,title,0,0
+0,ba1058bf-7d41-4482-999f-1fb7c4c6d5a9,2,dune,Hunter-Seeker,strong,title,0,0
+0,d81606c5-f7cc-4aa0-8467-3c25deec0c8f,2,dune,Hunter-Seeker,strong,title,0,0
+1,04ddb827-8a32-4229-a931-c4dc4ca163e5,2,dune,Game Errors,strong,fragment,1435,238
+2,04ddb827-8a32-4229-a931-c4dc4ca163e5,1,dune,Game Errors,weak_accepted,error_code,0,0
+3,04ddb827-8a32-4229-a931-c4dc4ca163e5,2,dune,Game Errors,strong,fragment,3878,629
+5,38478459-e305-4111-96ba-62f597ebe2c8,2,dune,Tax,strong,fragment,1298,218
+6,b6b97fea-30b8-411a-a6ab-0aabad30dc4f,2,dune,Harvester,strong,fragment,94,14
+7,33b69279-d94b-46b6-b0e9-13c2d0e77d76,2,dune,2025-06-13-Dune: Awakening – 1.1.0.14 Patch Notes,strong,fragment,461,77
+8,63da11dc-de45-41af-8e32-c62f00b4fcee,2,dune,Server Architecture,strong,fragment,749,113
+9,04ddb827-8a32-4229-a931-c4dc4ca163e5,2,dune,Game Errors,strong,error_code,0,0
+10,dc7c263c-77b6-4b8e-b36c-ac946504175a,2,dune,Dune Awakening Direct,strong,fragment,1482,254
+11,3af69d0f-1e5a-49f3-a4d9-5a32daa1b6de,2,dune,Spice,strong,fragment,677,113
+12,3d2f63ae-368c-4914-b7e3-9dbc6a0885a7,2,dune,2025-06-10-Dune: Awakening is Out Now!,strong,fragment,1943,323
+14,8c748d3d-fd71-4672-9aba-35ef71344873,2,dune,Ornithopter _PreBeta,strong,fragment,616,99
+15,3d2f63ae-368c-4914-b7e3-9dbc6a0885a7,2,dune,2025-06-10-Dune: Awakening is Out Now!,strong,fragment,2039,339
+16,3d2f63ae-368c-4914-b7e3-9dbc6a0885a7,2,dune,2025-06-10-Dune: Awakening is Out Now!,strong,fragment,2058,342
+17,04ddb827-8a32-4229-a931-c4dc4ca163e5,1,dune,Game Errors,weak_accepted,error_code,0,0
+18,019e12c9-ec6a-47e3-858e-95b2aa8428c4,2,dune,2025-06-08-Dune: Awakening – 1.1.0.9 Patch Notes,strong,fragment,432,75
+19,b0ea262d-a704-4ccb-83bb-ce04db3e7a70,2,dune,Plasteel Composite Armor Plating,strong,fragment,146,26
+20,ee11a527-b6c2-45ad-8ebc-565b7d2552ad,2,dune,Melee,strong,fragment,682,108
+21,10d746bb-8e05-430a-82a7-19f05fbc98cb,2,dune,Shield Wall _Mentat Ability,manual,manual,0,0
+21,1c653277-d1d8-43c7-9646-f6f01f78ba36,2,dune,Hunter Seeker,manual,manual,0,0
+21,27903a5a-4299-4ccc-b9d1-b0039f9ee08b,2,dune,Hunter-Seeker,manual,manual,0,0
+21,3dbc0f9a-6c8e-4a25-a20d-dafd64e7d088,2,dune,Slow Deflection,manual,manual,0,0
+21,42348aa8-cefb-4d0c-bab7-c8b942900f69,2,dune,Slow Deflection,manual,manual,0,0
+21,5177a80d-2857-4629-bafc-e7f5aa4cd203,2,dune,Battlefield Calculation,manual,manual,0,0
+21,57613ea7-2029-4a1f-8f19-c358596a6fb2,2,dune,Hunter Seeker,manual,manual,0,0
+21,6a9e0e53-8cfb-4bd0-895c-c8d1d45de6ce,2,dune,Mentat,manual,manual,0,0
+21,7792002e-62ab-4108-9f15-4a4cdcb00c8e,2,dune,Swordmaster,manual,manual,0,0
+21,882b6447-40ee-49b5-b048-f4f1db23638b,2,dune,Knee Charge,manual,manual,0,0
+21,ba1058bf-7d41-4482-999f-1fb7c4c6d5a9,2,dune,Hunter-Seeker,manual,manual,0,0
+21,d81606c5-f7cc-4aa0-8467-3c25deec0c8f,2,dune,Hunter-Seeker,manual,manual,0,0
+21,dbbc951a-2845-4f88-a168-b8c918b7d6f8,2,dune,Slow Deflection,manual,manual,0,0
+22,3af69d0f-1e5a-49f3-a4d9-5a32daa1b6de,2,dune,Spice,strong,fragment,789,130
+23,04ddb827-8a32-4229-a931-c4dc4ca163e5,2,dune,Game Errors,strong,error_code,0,0
+24,ed2a5b65-c09b-4308-80e9-cfb0687cdd61,2,dune,Community,strong,fragment,1750,256
+25,04ddb827-8a32-4229-a931-c4dc4ca163e5,2,dune,Game Errors,strong,fragment,3878,629
+26,4117bcc9-937d-4ea3-b7fb-bb98ceeec17e,2,dune,Sandworm,strong,fragment,1098,178
+27,51d243ca-081b-48dd-b7a5-af3710dcc5ef,2,dune,The Deep Desert _PreBeta,strong,fragment,709,119
+28,04ddb827-8a32-4229-a931-c4dc4ca163e5,2,dune,Game Errors,strong,fragment,3125,511
+29,0a34acea-1095-49e9-8885-194f17adb9a3,2,dune,2025-06-07-Dune: Awakening – 1.1.0.7 Patch Notes,strong,fragment,428,74
+30,33b69279-d94b-46b6-b0e9-13c2d0e77d76,2,dune,2025-06-13-Dune: Awakening – 1.1.0.14 Patch Notes,strong,fragment,461,77
+31,3af69d0f-1e5a-49f3-a4d9-5a32daa1b6de,2,dune,Spice,strong,fragment,789,130
+32,51d243ca-081b-48dd-b7a5-af3710dcc5ef,2,dune,The Deep Desert _PreBeta,strong,fragment,388,66
+33,96c27890-0d21-472d-a14c-5216502dd7ef,2,dune,Character Creation,strong,fragment,142,20
+34,04ddb827-8a32-4229-a931-c4dc4ca163e5,2,dune,Game Errors,strong,fragment,3125,511
+35,04ddb827-8a32-4229-a931-c4dc4ca163e5,2,dune,Game Errors,strong,fragment,3780,616
+36,3af69d0f-1e5a-49f3-a4d9-5a32daa1b6de,2,dune,Spice,strong,fragment,789,130
+37,63da11dc-de45-41af-8e32-c62f00b4fcee,2,dune,Server Architecture,strong,fragment,765,115
+38,fbacc85a-01d8-48bc-904b-45c753258b9a,2,dune,Death Mechanics,strong,fragment,551,86
+39,3a282e9a-10ea-4cc6-8feb-ca58717fe01b,2,dune,Dune Trezirea Direct,strong,fragment,3083,489
+39,dc7c263c-77b6-4b8e-b36c-ac946504175a,2,dune,Dune Awakening Direct,strong,fragment,3215,524
+40,8febc349-8e30-490e-a924-9d7aea451f5c,2,dune,Lore Characters,strong,fragment,187,29
+41,66bdc678-8285-46b4-8a37-6ec29eb33daa,2,dune,Dune_ Awakening Livestream,strong,fragment,3885,583
+42,e19128ce-0794-4483-9d09-2b0f27189b52,2,dune,2025-07-09-Developer Update,strong,fragment,2049,304
+44,f9032297-0aeb-424b-b520-bf8405732c97,2,dune,Crysknife,strong,fragment,811,138
+45,3af69d0f-1e5a-49f3-a4d9-5a32daa1b6de,2,dune,Spice,strong,fragment,789,130
+46,3af69d0f-1e5a-49f3-a4d9-5a32daa1b6de,2,dune,Spice,strong,fragment,789,130
+48,3af69d0f-1e5a-49f3-a4d9-5a32daa1b6de,2,dune,Spice,strong,fragment,789,130
+49,3f502aff-2e80-4230-be78-d1b370088217,2,dune,Spilrelease,strong,fragment,3214,542
+50,04ddb827-8a32-4229-a931-c4dc4ca163e5,2,dune,Game Errors,strong,fragment,350,56
+51,3af69d0f-1e5a-49f3-a4d9-5a32daa1b6de,2,dune,Spice,strong,fragment,677,113
+52,b703604e-dccd-46c3-a3de-da20c3cc6ef1,2,dune,2025-08-21-Dune: Awakening - 1.1.25.0 Hotfix 2,strong,fragment,70,14
+53,2b04dc26-29b5-419a-bbfb-02680a6a2d53,2,dyinglight2,17504_UV Flashlight _Dying Light 2 Stay Human,strong,fragment,383,61
+54,9ec49e5a-769b-48ec-abf0-c8d88d9a9615,2,dyinglight2,16505_Regeneration Booster,strong,fragment,2507,425
+55,72abe336-9a2c-4530-94b4-823e8406592a,2,dyinglight2,11514_Dying Light 2 Stay Human,strong,fragment,6377,1064
+56,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,936,157
+57,72abe336-9a2c-4530-94b4-823e8406592a,2,dyinglight2,11514_Dying Light 2 Stay Human,strong,fragment,3454,581
+58,25ae431d-e0f1-4cfd-9d6c-bcab6eccb17c,2,dyinglight2,16399_Loading Screens _Dying Light 2 Stay Human,strong,fragment,2481,432
+59,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,936,157
+60,2b04dc26-29b5-419a-bbfb-02680a6a2d53,2,dyinglight2,17504_UV Flashlight _Dying Light 2 Stay Human,strong,fragment,383,61
+61,0962addf-2c1e-4ce6-8b0c-39488bacb80f,2,dyinglight2,16935_Patches and Updates_Update 1_8,strong,fragment,262,48
+61,0cee929e-4ab9-4758-a76a-9ba6b5e582c7,2,dyinglight2,2022-12-08_Official_News_Update 1.8 is Live_,strong,fragment,330,57
+62,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,936,157
+63,f7fa2569-3f95-48a6-88a7-7a7ea319fb89,2,dyinglight2,13912_Paraglider,strong,fragment,366,64
+64,f7fa2569-3f95-48a6-88a7-7a7ea319fb89,2,dyinglight2,13912_Paraglider,strong,fragment,232,39
+65,bb131078-393a-4918-911c-e9a44d8514bd,2,dyinglight2,15976_Outfits in Dying Light 2 Stay Human,strong,fragment,811,132
+66,72abe336-9a2c-4530-94b4-823e8406592a,2,dyinglight2,11514_Dying Light 2 Stay Human,strong,fragment,6138,1025
+67,5bb32f62-3de0-464d-8cac-c4e01458f3b8,2,dyinglight2,14107_Skills _Dying Light 2 Stay Human,strong,fragment,202,33
+68,2b04dc26-29b5-419a-bbfb-02680a6a2d53,2,dyinglight2,17504_UV Flashlight _Dying Light 2 Stay Human,strong,fragment,383,61
+69,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,936,157
+70,e2113685-99cd-4512-860d-c31f3020f450,2,dyinglight2,14459_Hooked on the Thrill Challenge,strong,fragment,984,167
+71,aed97124-4319-43a4-b2a4-ad5bc9a8d105,2,dyinglight2,17478_Post-Apo Bundle,strong,fragment,60,9
+72,0962addf-2c1e-4ce6-8b0c-39488bacb80f,2,dyinglight2,16935_Patches and Updates_Update 1_8,strong,fragment,262,48
+72,0cee929e-4ab9-4758-a76a-9ba6b5e582c7,2,dyinglight2,2022-12-08_Official_News_Update 1.8 is Live_,strong,fragment,330,57
+73,25ae431d-e0f1-4cfd-9d6c-bcab6eccb17c,2,dyinglight2,16399_Loading Screens _Dying Light 2 Stay Human,strong,fragment,681,118
+74,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,177,33
+75,8302e919-c132-4462-af9a-81ce693e88db,2,dyinglight2,14131_Road Map _Dying Light 2 Stay Human,strong,fragment,364,59
+76,9b4e517d-0296-47d7-a4b5-7e049ca4dd03,2,dyinglight2,16501_Throwing Knife _Dying Light 2 Stay Human,strong,fragment,1400,229
+77,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,151,29
+78,a91aa6cf-e360-41c5-a2c6-b396307bdfb6,2,dyinglight2,17347_Authority Pack,strong,fragment,968,161
+79,0962addf-2c1e-4ce6-8b0c-39488bacb80f,2,dyinglight2,16935_Patches and Updates_Update 1_8,strong,fragment,320,57
+80,5bb32f62-3de0-464d-8cac-c4e01458f3b8,2,dyinglight2,14107_Skills _Dying Light 2 Stay Human,strong,fragment,124,21
+81,990921ff-aced-418d-a989-a703819b5ec6,2,dyinglight2,14137_Parkour Challenges,strong,fragment,136,22
+82,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,936,157
+83,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,177,33
+84,f7fa2569-3f95-48a6-88a7-7a7ea319fb89,2,dyinglight2,13912_Paraglider,strong,fragment,431,75
+85,b1c30224-5ea3-4e39-bf84-b7ac2938bcda,2,dyinglight2,16508_Endurance Booster,strong,fragment,102,17
+86,22e63de3-d6e4-4f98-b367-93240de8d54a,2,dyinglight2,16118_Patches and Updates_Patch 1_2_0,strong,fragment,1800,275
+87,8302e919-c132-4462-af9a-81ce693e88db,2,dyinglight2,14131_Road Map _Dying Light 2 Stay Human,strong,fragment,413,68
+88,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,936,157
+89,22e63de3-d6e4-4f98-b367-93240de8d54a,2,dyinglight2,16118_Patches and Updates_Patch 1_2_0,strong,fragment,1502,230
+89,2d9d980d-0238-4c37-88e2-77a1e4431e46,2,dyinglight2,2022-03-09_Official_News_Patch 1.2 for PC is here_,strong,fragment,1543,239
+89,b95947a7-0b03-4842-8ef8-85c9637bd3c4,2,dyinglight2,2022-03-11_Official_News_Patch 1.2.0 for Xbox is here_,strong,fragment,1606,250
+89,f01ca0a5-586c-4076-92f0-674e239cf098,2,dyinglight2,2022-03-11_Official_News_Patches for PlayStation are here_,strong,fragment,1526,231
+90,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,1217,201
+91,bb131078-393a-4918-911c-e9a44d8514bd,2,dyinglight2,15976_Outfits in Dying Light 2 Stay Human,strong,fragment,160,28
+92,22c6d7aa-5369-451b-8cb5-fdc0bdde5968,2,dyinglight2,16326_Dying Light 2 Stay Human_ Bloody Ties,strong,fragment,37,7
+93,f1d0b3f1-f481-4724-a58f-8c1a043ae817,2,dyinglight2,17723_The First Pilgrim Crossbow,strong,fragment,214,37
+94,b8d85bd2-1d61-4ad7-ab61-dd8af159f3d7,2,dyinglight2,2022-03-15_Official_News_Parkour Challenges Coming to the City This Week,strong,fragment,152,25
+95,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,607,103
+96,2b04dc26-29b5-419a-bbfb-02680a6a2d53,2,dyinglight2,17504_UV Flashlight _Dying Light 2 Stay Human,strong,fragment,721,123
+97,9bd30cc2-8fe7-4d67-a681-73425b337fbd,2,dyinglight2,16934_Patches and Updates_Update 1_7_2,strong,fragment,1432,243
+98,695c46e3-343e-4a6b-be1a-546eea819ec1,2,dyinglight2,14087_Factions _Dying Light 2 Stay Human,strong,fragment,2019,324
+99,45d56ac2-35a6-478a-8362-a6977e6fdcd4,2,dyinglight2,2022-06-21_Official_News_Get Dying Light 2 Stay Human at a great discount,strong,fragment,287,51
+100,8302e919-c132-4462-af9a-81ce693e88db,2,dyinglight2,14131_Road Map _Dying Light 2 Stay Human,strong,fragment,401,66
+101,22c6d7aa-5369-451b-8cb5-fdc0bdde5968,2,dyinglight2,16326_Dying Light 2 Stay Human_ Bloody Ties,strong,fragment,1614,286
+102,d501e655-263d-45c9-97ff-fa355c04c111,2,dyinglight2,17173_Weapon Mods,strong,fragment,934,158
+103,72abe336-9a2c-4530-94b4-823e8406592a,2,dyinglight2,11514_Dying Light 2 Stay Human,strong,fragment,2641,455
+104,72abe336-9a2c-4530-94b4-823e8406592a,2,dyinglight2,11514_Dying Light 2 Stay Human,strong,fragment,254,46
+105,68c87737-bdb7-4bb9-a352-6231bdc4986d,2,dyinglight2,2022-05-05_Official_News_Free upgrade to Enhanced Edition,strong,fragment,130,20
+106,45d56ac2-35a6-478a-8362-a6977e6fdcd4,2,dyinglight2,2022-06-21_Official_News_Get Dying Light 2 Stay Human at a great discount,strong,fragment,159,28
+107,a19e3037-bdf9-4ea7-bc40-19f9f52c10a8,2,dyinglight2,2022-05-04_Official_News_Dying Light - Dieselpunk Bundle,strong,fragment,509,78
+109,f0375884-34cb-412c-8b88-7e5e82f6c7cd,2,dyinglight2,17119_Blueprints _Dying Light 2 Stay Human,strong,fragment,231,37
+110,72abe336-9a2c-4530-94b4-823e8406592a,2,dyinglight2,11514_Dying Light 2 Stay Human,strong,fragment,2538,438
+111,45d56ac2-35a6-478a-8362-a6977e6fdcd4,2,dyinglight2,2022-06-21_Official_News_Get Dying Light 2 Stay Human at a great discount,strong,fragment,287,51
+112,ac52f8c1-c465-4225-8922-00439f979df2,2,dyinglight2,16502_Mine _Dying Light 2 Stay Human,strong,fragment,580,98
+113,8302e919-c132-4462-af9a-81ce693e88db,2,dyinglight2,14131_Road Map _Dying Light 2 Stay Human,strong,fragment,401,66
+114,f0098e61-390e-4421-893e-cf358a81b870,2,dyinglight2,13788_Lawan,strong,fragment,798,139
+115,0962addf-2c1e-4ce6-8b0c-39488bacb80f,2,dyinglight2,16935_Patches and Updates_Update 1_8,strong,fragment,207,40
+115,0cee929e-4ab9-4758-a76a-9ba6b5e582c7,2,dyinglight2,2022-12-08_Official_News_Update 1.8 is Live_,strong,fragment,330,57
+116,d501e655-263d-45c9-97ff-fa355c04c111,2,dyinglight2,17173_Weapon Mods,strong,fragment,626,109
+117,2e9c120f-f4ec-4cc4-88d1-13843f397432,2,dyinglight2,14550_Random Encounters _Dying Light 2 Stay Human,strong,fragment,4199,715
+118,b2e33185-32c9-4ea0-a5cf-a2f4afe00a40,2,dyinglight2,16937_Patches and Updates_Update 1_9_0,strong,fragment,3217,512
+119,2b04dc26-29b5-419a-bbfb-02680a6a2d53,2,dyinglight2,17504_UV Flashlight _Dying Light 2 Stay Human,strong,fragment,52,8
+120,2b04dc26-29b5-419a-bbfb-02680a6a2d53,2,dyinglight2,17504_UV Flashlight _Dying Light 2 Stay Human,strong,fragment,540,90
+121,f275b5a7-fb34-44a9-9b37-d0933eb6dd2b,2,dyinglight2,16140_Renegades _Quest,strong,fragment,594,100
+122,d501e655-263d-45c9-97ff-fa355c04c111,2,dyinglight2,17173_Weapon Mods,strong,fragment,440,76
+123,2b04dc26-29b5-419a-bbfb-02680a6a2d53,2,dyinglight2,17504_UV Flashlight _Dying Light 2 Stay Human,strong,fragment,52,8
+124,71690568-91b2-4b35-adb9-4435f2412e11,2,dyinglight2,14093_Inhibitors,strong,fragment,835,126
+125,72abe336-9a2c-4530-94b4-823e8406592a,2,dyinglight2,11514_Dying Light 2 Stay Human,strong,fragment,2886,491
+126,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,1429,237
+127,5bb32f62-3de0-464d-8cac-c4e01458f3b8,2,dyinglight2,14107_Skills _Dying Light 2 Stay Human,strong,fragment,4519,730
+128,25ae431d-e0f1-4cfd-9d6c-bcab6eccb17c,2,dyinglight2,16399_Loading Screens _Dying Light 2 Stay Human,strong,fragment,259,41
+129,d2866319-959f-4c77-9e9c-7046fb97bf21,2,dyinglight2,14274_Missing Persons _Dying Light 2 Stay Human,strong,fragment,3090,567
+130,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,1191,197
+131,72abe336-9a2c-4530-94b4-823e8406592a,2,dyinglight2,11514_Dying Light 2 Stay Human,strong,fragment,2641,455
+132,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,1304,214
+133,5bb32f62-3de0-464d-8cac-c4e01458f3b8,2,dyinglight2,14107_Skills _Dying Light 2 Stay Human,strong,fragment,564,93
+134,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,1304,214
+135,81f057a2-0fb1-483f-878d-5b6ff360ca59,2,dyinglight2,17465_Patches and Updates_Hotfix 1_10_2,strong,fragment,1304,214
+136,6fc33251-6ad4-49a9-9d25-3d9c34a862b6,2,dyinglight2,2024-08-20_Official_News_Community QoL Update _1.18_,strong,fragment,600,96
+137,ccbe921d-0208-4723-bbcc-2de02abb164f,2,dyinglight2,2023-09-25_Official_News_New Hotfix,strong,fragment,307,57
+138,f7fa2569-3f95-48a6-88a7-7a7ea319fb89,2,dyinglight2,13912_Paraglider,strong,fragment,366,64
+139,92bb77d1-b675-433e-a3d3-eb252e791941,2,pubgm,303_M416,strong,error_code,0,0
+140,12347af3-2039-4e7f-aeb1-d57dc19b9303,2,pubgm,887_Skins,strong,fragment,895,148
+141,acaba93c-64ae-4106-b8f7-6ea5a5fab6a2,2,pubgm,2024-03-11-Authorized Login Introduction,strong,fragment,684,107
+142,7d797a71-7810-4733-af28-d01218124dd5,2,pubgm,2024-03-12-PUBG MOBILE Version 3.1 Update Announcement,strong,fragment,1661,277
+143,45477b1b-9be2-4d1a-bd98-6d21dc5c2792,2,pubgm,618_Guide_How to Play PUBG on PC,strong,fragment,1002,172
+144,608b0d82-57c2-43a9-bda7-8fdb9115a7f4,2,pubgm,872_Erangel,strong,fragment,401,64
+145,d6d1d558-d8d7-4963-8910-9f20ce69c7f3,2,pubgm,411_Quickdraw Extended Mag _SMG,manual,manual,0,0
+147,231f20c6-d795-44a0-aaf1-8bd004db61fc,2,pubgm,116_Weapons,strong,fragment,440,62
+148,608b0d82-57c2-43a9-bda7-8fdb9115a7f4,2,pubgm,872_Erangel,strong,fragment,1221,203
+149,acaba93c-64ae-4106-b8f7-6ea5a5fab6a2,2,pubgm,2024-03-11-Authorized Login Introduction,strong,fragment,474,73
+150,12347af3-2039-4e7f-aeb1-d57dc19b9303,2,pubgm,887_Skins,strong,fragment,895,148
+151,e8c5a211-ce46-4a54-83f0-5376f8f55b15,1,pubgm,632_Rank System,strong,fragment,32,4
+152,608b0d82-57c2-43a9-bda7-8fdb9115a7f4,2,pubgm,872_Erangel,strong,fragment,1221,203
+153,77bd2356-6cd1-4ab4-a410-12e564fbbb76,2,pubgm,357_Holographic Sight,strong,fragment,60,6
+154,20f64448-6279-4493-b2b7-258258f29018,2,pubgm,671_Classic Mode,strong,fragment,311,57
+155,69e8452e-944b-4749-af34-f32cc9b2ae11,2,pubgm,458_Buggy,strong,fragment,368,62
+156,cbc22120-562a-41f9-9f8a-f090e3c75aa2,2,pubgm,363_4x Scope,strong,fragment,272,46
+157,42817569-5902-4db6-8a2a-1178ddc786ec,2,pubgm,852_Metro Royale,strong,fragment,128,23
+158,12347af3-2039-4e7f-aeb1-d57dc19b9303,2,pubgm,887_Skins,strong,fragment,553,94
+159,92bb77d1-b675-433e-a3d3-eb252e791941,2,pubgm,303_M416,strong,fragment,272,50
+160,12347af3-2039-4e7f-aeb1-d57dc19b9303,2,pubgm,887_Skins,strong,fragment,1115,187
+161,13fbb3a2-10cc-4b85-a9d7-67b8fe1662f6,2,pubgm,533_PUBG Mobile,strong,fragment,150,24
+162,45477b1b-9be2-4d1a-bd98-6d21dc5c2792,2,pubgm,618_Guide_How to Play PUBG on PC,strong,fragment,1002,172
+163,608b0d82-57c2-43a9-bda7-8fdb9115a7f4,2,pubgm,872_Erangel,strong,fragment,1942,319
+164,20f64448-6279-4493-b2b7-258258f29018,2,pubgm,671_Classic Mode,strong,fragment,524,94
+166,edf720ca-697d-4fe6-b76c-bf1cfddef5ff,2,pubgm,871_Guide_SLOW AND STEADY,strong,fragment,603,112
+167,4358e0c3-ca58-4b3c-af28-c86852efdfd8,2,pubgm,651_Flare Gun,strong,fragment,638,124
+168,92bb77d1-b675-433e-a3d3-eb252e791941,2,pubgm,303_M416,strong,fragment,272,50
+169,4ee4072c-1a78-4290-8008-4b7516bb1287,2,pubgm,1087_PUBG Redeem Codes 2023,strong,fragment,616,94
+170,45477b1b-9be2-4d1a-bd98-6d21dc5c2792,2,pubgm,618_Guide_How to Play PUBG on PC,strong,fragment,944,162
+171,932b9027-39ce-49ff-9375-290dd7d067ba,2,pubgm,2024-07-30-Authorized Login Update Announcement,strong,fragment,944,137
+172,608b0d82-57c2-43a9-bda7-8fdb9115a7f4,2,pubgm,872_Erangel,strong,fragment,401,64
+173,13fbb3a2-10cc-4b85-a9d7-67b8fe1662f6,2,pubgm,533_PUBG Mobile,strong,fragment,150,24
+174,723b3cd2-09a6-46ca-b9fc-6e8824a488bb,2,pubgm,1075_Maps,strong,fragment,264,44
+175,45477b1b-9be2-4d1a-bd98-6d21dc5c2792,2,pubgm,618_Guide_How to Play PUBG on PC,strong,fragment,486,91
+176,f1e5ef66-6e2c-4564-b9b9-9c2d29f95f27,2,pubgm,2024-08-20-Account Protection Features,strong,fragment,1991,328
+177,f1e5ef66-6e2c-4564-b9b9-9c2d29f95f27,2,pubgm,2024-08-20-Account Protection Features,strong,fragment,2734,459
+178,91a88c95-1297-4b0c-9cc2-d106ebb037a7,2,pubgm,2024-09-13-Authorized Login Announcement,strong,fragment,1521,241
+179,f1e5ef66-6e2c-4564-b9b9-9c2d29f95f27,2,pubgm,2024-08-20-Account Protection Features,strong,fragment,221,32
+180,f1e5ef66-6e2c-4564-b9b9-9c2d29f95f27,2,pubgm,2024-08-20-Account Protection Features,strong,fragment,1055,170
+181,f1e5ef66-6e2c-4564-b9b9-9c2d29f95f27,2,pubgm,2024-08-20-Account Protection Features,strong,fragment,1991,328
+182,f1e5ef66-6e2c-4564-b9b9-9c2d29f95f27,2,pubgm,2024-08-20-Account Protection Features,strong,fragment,458,69
+183,f1e5ef66-6e2c-4564-b9b9-9c2d29f95f27,2,pubgm,2024-08-20-Account Protection Features,strong,fragment,2487,416
+184,f1e5ef66-6e2c-4564-b9b9-9c2d29f95f27,2,pubgm,2024-08-20-Account Protection Features,strong,fragment,1991,328
+185,f1e5ef66-6e2c-4564-b9b9-9c2d29f95f27,2,pubgm,2024-08-20-Account Protection Features,strong,fragment,2487,416
+186,f1e5ef66-6e2c-4564-b9b9-9c2d29f95f27,2,pubgm,2024-08-20-Account Protection Features,strong,fragment,2487,416
+187,45477b1b-9be2-4d1a-bd98-6d21dc5c2792,2,pubgm,618_Guide_How to Play PUBG on PC,strong,fragment,486,91
+188,608b0d82-57c2-43a9-bda7-8fdb9115a7f4,2,pubgm,872_Erangel,strong,fragment,1221,203
+189,723b3cd2-09a6-46ca-b9fc-6e8824a488bb,2,pubgm,1075_Maps,strong,fragment,5,1
+190,608b0d82-57c2-43a9-bda7-8fdb9115a7f4,2,pubgm,872_Erangel,strong,fragment,1711,287
+191,608b0d82-57c2-43a9-bda7-8fdb9115a7f4,2,pubgm,872_Erangel,strong,fragment,401,64
+192,be5217f5-8445-4644-b956-30d03f8de3e1,2,pubgm,692_Royale Pass_Season 13,strong,fragment,202,34
+193,1d60e729-e361-4f2c-9885-25e4946cc375,2,pubgm,2025-01-08-PUBG MOBILE Version 3.6 Update Announcement,strong,fragment,1780,279
+194,1d60e729-e361-4f2c-9885-25e4946cc375,2,pubgm,2025-01-08-PUBG MOBILE Version 3.6 Update Announcement,strong,fragment,72,12
+196,45477b1b-9be2-4d1a-bd98-6d21dc5c2792,2,pubgm,618_Guide_How to Play PUBG on PC,strong,fragment,486,91
+197,13fbb3a2-10cc-4b85-a9d7-67b8fe1662f6,2,pubgm,533_PUBG Mobile,strong,fragment,815,132
+199,4ee4072c-1a78-4290-8008-4b7516bb1287,2,pubgm,1087_PUBG Redeem Codes 2023,strong,fragment,703,108
+200,1d60e729-e361-4f2c-9885-25e4946cc375,2,pubgm,2025-01-08-PUBG MOBILE Version 3.6 Update Announcement,strong,fragment,446,81
+201,13fbb3a2-10cc-4b85-a9d7-67b8fe1662f6,2,pubgm,533_PUBG Mobile,strong,fragment,815,132
+202,694af63a-add5-42b1-9ba0-45bc51111050,2,pubgm,681_Payload mode,strong,fragment,1269,205
+203,005070c3-7f4f-495e-ab18-334bbbd6d8da,2,pubgm,705_SMGs,strong,fragment,24,3
+204,8ea33e1c-fee4-4204-a0f7-70a0bb4be01d,2,pubgm,106_SCAR-L,strong,fragment,476,81
+205,12347af3-2039-4e7f-aeb1-d57dc19b9303,2,pubgm,887_Skins,strong,fragment,895,148
+206,9f4dc756-2761-45a6-9c2b-11284cda1745,2,pubgm,367_8x Scope,strong,fragment,416,68
+207,12347af3-2039-4e7f-aeb1-d57dc19b9303,2,pubgm,887_Skins,strong,fragment,1115,187
+208,12347af3-2039-4e7f-aeb1-d57dc19b9303,2,pubgm,887_Skins,strong,fragment,895,148
+209,b009af67-af33-489e-a0f4-fe5211c65b54,2,pubgm,345_Attachments,strong,fragment,365,62
+210,d3fc7cf4-f9fa-40d0-bda1-c6a0d2e3cfbb,2,pubgm,2025-03-17-Version 3.7 Account Security Update Announcement,strong,fragment,1132,160
+211,608b0d82-57c2-43a9-bda7-8fdb9115a7f4,2,pubgm,872_Erangel,strong,fragment,401,64
+212,13fbb3a2-10cc-4b85-a9d7-67b8fe1662f6,2,pubgm,533_PUBG Mobile,strong,fragment,975,161
+213,e8c5a211-ce46-4a54-83f0-5376f8f55b15,2,pubgm,632_Rank System,strong,fragment,796,146
+214,d3fc7cf4-f9fa-40d0-bda1-c6a0d2e3cfbb,2,pubgm,2025-03-17-Version 3.7 Account Security Update Announcement,strong,fragment,1132,160
+215,694af63a-add5-42b1-9ba0-45bc51111050,2,pubgm,681_Payload mode,strong,fragment,942,150
+216,d3fc7cf4-f9fa-40d0-bda1-c6a0d2e3cfbb,2,pubgm,2025-03-17-Version 3.7 Account Security Update Announcement,strong,fragment,1132,160
+217,d3fc7cf4-f9fa-40d0-bda1-c6a0d2e3cfbb,2,pubgm,2025-03-17-Version 3.7 Account Security Update Announcement,strong,fragment,663,91
+218,12347af3-2039-4e7f-aeb1-d57dc19b9303,2,pubgm,887_Skins,strong,fragment,895,148
+219,45477b1b-9be2-4d1a-bd98-6d21dc5c2792,2,pubgm,618_Guide_How to Play PUBG on PC,strong,fragment,1002,172
+220,1993bf6a-f7f8-46f9-8a87-5c1871031e6c,2,pubgm,922_Achievements,strong,fragment,36,3
+221,d3fc7cf4-f9fa-40d0-bda1-c6a0d2e3cfbb,2,pubgm,2025-03-17-Version 3.7 Account Security Update Announcement,strong,fragment,663,91
+222,d3fc7cf4-f9fa-40d0-bda1-c6a0d2e3cfbb,2,pubgm,2025-03-17-Version 3.7 Account Security Update Announcement,strong,fragment,663,91
+223,13fbb3a2-10cc-4b85-a9d7-67b8fe1662f6,2,pubgm,533_PUBG Mobile,strong,fragment,684,110
+224,92bb77d1-b675-433e-a3d3-eb252e791941,2,pubgm,303_M416,manual,manual,0,0
+225,12347af3-2039-4e7f-aeb1-d57dc19b9303,2,pubgm,887_Skins,strong,fragment,895,148
+226,42817569-5902-4db6-8a2a-1178ddc786ec,2,pubgm,852_Metro Royale,strong,fragment,298,53
+227,20f64448-6279-4493-b2b7-258258f29018,2,pubgm,671_Classic Mode,strong,fragment,30,4
+228,db88dcda-c624-4d6b-9f9b-97288eb3b849,2,pubgm,454_Vehicles,strong,fragment,38,4
+229,edf720ca-697d-4fe6-b76c-bf1cfddef5ff,2,pubgm,871_Guide_SLOW AND STEADY,strong,fragment,1311,228
+230,608b0d82-57c2-43a9-bda7-8fdb9115a7f4,2,pubgm,872_Erangel,strong,fragment,401,64
+231,05b823da-7004-4332-a8ba-a873dd177663,2,pubgm,1078_Dacia,strong,fragment,602,101
+1,c2bcdd49-61dd-4ddc-8b1d-fa509d2cfa3a,1,dune,2025-07-17-Dune: Awakening - 1.1.15.0 Hotfix 2,candidate_audit_addition,verbatim_passage,0,0
+7,a046536e-418b-436f-b921-1059e6ac26d5,1,dune,2025-07-04-Dune: Awakening - 1.1.10.0 Hotfix,candidate_audit_addition,verbatim_passage,0,0
+7,c2bcdd49-61dd-4ddc-8b1d-fa509d2cfa3a,1,dune,2025-07-17-Dune: Awakening - 1.1.15.0 Hotfix 2,candidate_audit_addition,verbatim_passage,0,0
+8,ada854d0-b390-45e1-a43a-23a3e3b8dc60,1,dune,Private servers,candidate_audit_addition,verbatim_passage,0,0
+8,0e50e96f-a0e4-427e-8a9d-ac2071052168,1,dune,Hagga Basin,candidate_audit_addition,verbatim_passage,0,0
+8,d053af7c-a7fc-483b-b329-4b3256491e1d,1,dune,Sources_Videos_AlphaCast Jeff Gamescom Interview,candidate_audit_addition,verbatim_passage,0,0
+11,4edf23c0-ef10-407a-9c50-3652d980b178,2,dune,Mirodenia,candidate_audit_addition,verbatim_passage,0,0
+12,59403d28-f3e3-44d2-913d-d34a4c599c4e,1,dune,Game Edition,candidate_audit_addition,verbatim_passage,0,0
+12,72da368e-80cc-453f-a75c-0289515ced3c,1,dune,Édition du jeu,candidate_audit_addition,verbatim_passage,0,0
+19,6226d79d-29af-44b9-8092-5c7847f98985,2,dune,Plasteel Plate,candidate_audit_addition,verbatim_passage,0,0
+22,7ff0aeba-864f-41b6-8f2b-680f73aba0c4,2,dune,Koření,candidate_audit_addition,verbatim_passage,0,0
+33,b6389abd-4e20-4836-8500-2a1594622ae4,1,dune,2025-08-21-Chapter 2 Free Update and The Lost Harvest DLC,candidate_audit_addition,verbatim_passage,0,0
+38,e7ed8367-c94d-43d8-b32f-089bf92c89bf,1,dune,Respawn Beacon,candidate_audit_addition,verbatim_passage,0,0
+38,c47410cc-9e32-4af0-ada9-92c8fbc54937,1,dune,Respawn Beacon_Schematic,candidate_audit_addition,verbatim_passage,0,0
+41,72da368e-80cc-453f-a75c-0289515ced3c,1,dune,Édition du jeu,candidate_audit_addition,verbatim_passage,0,0
+45,7ff0aeba-864f-41b6-8f2b-680f73aba0c4,1,dune,Koření,candidate_audit_addition,verbatim_passage,0,0
+45,4edf23c0-ef10-407a-9c50-3652d980b178,1,dune,Mirodenia,candidate_audit_addition,verbatim_passage,0,0
+46,7ff0aeba-864f-41b6-8f2b-680f73aba0c4,1,dune,Koření,candidate_audit_addition,verbatim_passage,0,0
+48,7ff0aeba-864f-41b6-8f2b-680f73aba0c4,2,dune,Koření,candidate_audit_addition,verbatim_passage,0,0
+48,4edf23c0-ef10-407a-9c50-3652d980b178,2,dune,Mirodenia,candidate_audit_addition,verbatim_passage,0,0
+49,478cc38f-8f1f-4155-9978-c77eb30a7429,2,dune,Sortie du jeu,candidate_audit_addition,verbatim_passage,0,0
+49,37ab03ad-d143-42b3-9362-48e42fbd31b1,2,dune,Game Release,candidate_audit_addition,verbatim_passage,0,0
+51,7ff0aeba-864f-41b6-8f2b-680f73aba0c4,1,dune,Koření,candidate_audit_addition,verbatim_passage,0,0
+51,4edf23c0-ef10-407a-9c50-3652d980b178,1,dune,Mirodenia,candidate_audit_addition,verbatim_passage,0,0
+52,a7e48582-1082-4b91-ba15-852fa974088d,1,dune,2025-07-25-Dune: Awakening - 1.1.17.0 Hotfix,candidate_audit_addition,verbatim_passage,0,0
+52,ef2fc472-1257-48b7-bdef-44ecadeb5e47,1,dune,2025-08-26-Dune: Awakening - 1.1.25.0 Hotfix 3,candidate_audit_addition,verbatim_passage,0,0
+52,a046536e-418b-436f-b921-1059e6ac26d5,1,dune,2025-07-04-Dune: Awakening - 1.1.10.0 Hotfix,candidate_audit_addition,verbatim_passage,0,0
+55,e5b0ed93-9c49-487c-b1e2-856ce3022573,1,dyinglight2,2025-06-04_Official_News_Dying Light_ The Beast Releases August 22_ 2025,candidate_audit_addition,verbatim_passage,0,0
+78,bb131078-393a-4918-911c-e9a44d8514bd,2,dyinglight2,15976_Outfits in Dying Light 2 Stay Human,candidate_audit_addition,verbatim_passage,0,0
+92,d3b88e07-21bd-461a-a5f1-15b9e1f3f95b,2,dyinglight2,2024-02-22_Official_News_Dying Light 2 Stay Human_ Reloaded Edition,candidate_audit_addition,verbatim_passage,0,0
+110,371b9e36-a67d-40b3-8b90-bcedb1fddbfa,1,dyinglight2,16638_Peacekeeper Rewards,candidate_audit_addition,verbatim_passage,0,0
+118,d3b88e07-21bd-461a-a5f1-15b9e1f3f95b,1,dyinglight2,2024-02-22_Official_News_Dying Light 2 Stay Human_ Reloaded Edition,candidate_audit_addition,verbatim_passage,0,0
+141,f1e5ef66-6e2c-4564-b9b9-9c2d29f95f27,1,pubgm,2024-08-20-Account Protection Features,candidate_audit_addition,verbatim_passage,0,0
+147,1624bb9f-ff44-4c5a-96d2-fd8ce7ce5bba,2,pubgm,136_7_62mm,candidate_audit_addition,verbatim_passage,0,0
+149,884dbf59-3118-410d-be32-b2fa729a67af,2,pubgm,2024-11-06-Authorized Login Update,candidate_audit_addition,verbatim_passage,0,0
+179,acaba93c-64ae-4106-b8f7-6ea5a5fab6a2,1,pubgm,2024-03-11-Authorized Login Introduction,candidate_audit_addition,verbatim_passage,0,0
+179,884dbf59-3118-410d-be32-b2fa729a67af,1,pubgm,2024-11-06-Authorized Login Update,candidate_audit_addition,verbatim_passage,0,0
+179,91a88c95-1297-4b0c-9cc2-d106ebb037a7,1,pubgm,2024-09-13-Authorized Login Announcement,candidate_audit_addition,verbatim_passage,0,0
+179,d3fc7cf4-f9fa-40d0-bda1-c6a0d2e3cfbb,1,pubgm,2025-03-17-Version 3.7 Account Security Update Announcement,candidate_audit_addition,verbatim_passage,0,0
+182,884dbf59-3118-410d-be32-b2fa729a67af,1,pubgm,2024-11-06-Authorized Login Update,candidate_audit_addition,verbatim_passage,0,0
+182,91a88c95-1297-4b0c-9cc2-d106ebb037a7,1,pubgm,2024-09-13-Authorized Login Announcement,candidate_audit_addition,verbatim_passage,0,0
+182,acaba93c-64ae-4106-b8f7-6ea5a5fab6a2,1,pubgm,2024-03-11-Authorized Login Introduction,candidate_audit_addition,verbatim_passage,0,0
+182,d3fc7cf4-f9fa-40d0-bda1-c6a0d2e3cfbb,1,pubgm,2025-03-17-Version 3.7 Account Security Update Announcement,candidate_audit_addition,verbatim_passage,0,0
+214,f1e5ef66-6e2c-4564-b9b9-9c2d29f95f27,2,pubgm,2024-08-20-Account Protection Features,candidate_audit_addition,verbatim_passage,0,0

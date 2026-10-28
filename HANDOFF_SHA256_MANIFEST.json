@@ -1,0 +1,55 @@
+{
+  "description": "SHA-256 provenance for copied source files; created explanatory documents are intentionally excluded.",
+  "copies": {
+    "02_FROZEN_DATA/Corpus_4192_Gaming_Documents.csv": {
+      "source": "FULL_corpus_documents.csv",
+      "source_sha256": "9eafff952b571e4a06256c9cde5fd69bc4bf330ee2ba00accee389a3cbc49f3d",
+      "copy_sha256": "9eafff952b571e4a06256c9cde5fd69bc4bf330ee2ba00accee389a3cbc49f3d"
+    },
+    "02_FROZEN_DATA/Original_Queries_232_with_Usability_Fields.csv": {
+      "source": "FULL_queries_232.csv",
+      "source_sha256": "9d0e48ec11215be69adec605e38c716cfc79928741b9a1ed3bda1bfaec4706d5",
+      "copy_sha256": "9d0e48ec11215be69adec605e38c716cfc79928741b9a1ed3bda1bfaec4706d5"
+    },
+    "02_FROZEN_DATA/Final_Relevance_Judgments_294_Pairs.csv": {
+      "source": "ChronoPlay_qrels_FINAL_CLAUDE_VERIFIED.csv",
+      "source_sha256": "ef540657e78591aed596e388633aa0ec388f4910d884125431487d103efb097c",
+      "copy_sha256": "ef540657e78591aed596e388633aa0ec388f4910d884125431487d103efb097c"
+    },
+    "02_FROZEN_DATA/Reference_to_Corpus_Document_Mapping.csv": {
+      "source": "FULL_reference_mapping.csv",
+      "source_sha256": "90a6c5a58d7225a85a47d6ff51b6fafcb6fb742cf1ee01a46db927f0be43a27e",
+      "copy_sha256": "90a6c5a58d7225a85a47d6ff51b6fafcb6fb742cf1ee01a46db927f0be43a27e"
+    },
+    "03_SPLITS_AND_EVALUATION/Frozen_Split_and_Leakage_Audit_Manifest.json": {
+      "source": "ChronoPlay_SPLIT_MANIFEST_CLAUDE_VERIFIED.json",
+      "source_sha256": "b8745f12de97d73998e5c6db20794185b096c20108c11cf34f99b6a6653f906b",
+      "copy_sha256": "b8745f12de97d73998e5c6db20794185b096c20108c11cf34f99b6a6653f906b"
+    },
+    "04_BASELINE_RESULTS/BM25_Development_Ranked_Run.csv": {
+      "source": "ChronoPlay_BM25_dev_run_v1.csv",
+      "source_sha256": "2754b4d1fe56e26d74d822026c5a7c9b3ea6f733c68a7c3d2fe6c036395a8e2e",
+      "copy_sha256": "2754b4d1fe56e26d74d822026c5a7c9b3ea6f733c68a7c3d2fe6c036395a8e2e"
+    },
+    "04_BASELINE_RESULTS/BM25_Development_Metrics_and_Settings.json": {
+      "source": "ChronoPlay_BM25_dev_metrics_v1.json",
+      "source_sha256": "dd619605a8b3aa841a50bb865421956f27bb5397e33111b5c7d1583e0521fc77",
+      "copy_sha256": "dd619605a8b3aa841a50bb865421956f27bb5397e33111b5c7d1583e0521fc77"
+    },
+    "04_BASELINE_RESULTS/BM25_Development_Per_Game_and_Task_Metrics.csv": {
+      "source": "ChronoPlay_BM25_dev_group_metrics_v1.csv",
+      "source_sha256": "0c8ae226c7f43c3e0a54a335f9003cd26a5b511f3c7b68da7d7292894d08f852",
+      "copy_sha256": "0c8ae226c7f43c3e0a54a335f9003cd26a5b511f3c7b68da7d7292894d08f852"
+    },
+    "01_READ_FIRST/Research_Protocol_and_Experimental_Rules.md": {
+      "source": "ChronoPlay_RESEARCH_PROTOCOL_v1.md",
+      "source_sha256": "a315e123cbb182a46074ea599056a2c30cfe7eaef5cd58ab05f6ab88156e5e91",
+      "copy_sha256": "a315e123cbb182a46074ea599056a2c30cfe7eaef5cd58ab05f6ab88156e5e91"
+    },
+    "01_READ_FIRST/Project_Overview_and_Four_Phases.pdf": {
+      "source": "Gaming_Domain_Retrieval.pdf",
+      "source_sha256": "0b6a8f11194cdf44f9b5d8373cdec0a02bf5ef0280e4e26c6856a7f0e13e4e1a",
+      "copy_sha256": "0b6a8f11194cdf44f9b5d8373cdec0a02bf5ef0280e4e26c6856a7f0e13e4e1a"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "status": "PASS",
+  "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "loaded_snapshot_commit": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "model_config_commit": null,
+  "dataset_version": "ChronoPlay-QA Claude Verified v1.1",
+  "corpus_file": "02_FROZEN_DATA/Corpus_4192_Gaming_Documents.csv",
+  "corpus_sha256": "9eafff952b571e4a06256c9cde5fd69bc4bf330ee2ba00accee389a3cbc49f3d",
+  "document_count": 4192,
+  "document_id_order": "source CSV row order",
+  "document_text": "Title: {title}\nContent: {contents}",
+  "normalization": "NFC; CRLF/CR to LF only",
+  "chunking": "none; one source document per vector",
+  "model_max_seq_length": 256,
+  "tokenizer_max_length": 256,
+  "truncation_policy": "Model's pinned configured maximum length; no manual change or chunking.",
+  "embedding_dimension": 384,
+  "embedding_dtype": "float32",
+  "l2_normalized": true,
+  "index_type": "faiss.IndexFlatIP",
+  "index_metric": "inner product over L2-normalized vectors (cosine similarity)",
+  "index_count": 4192,
+  "position_mapping": "chronoplay_document_id_mapping_v1.csv; position follows source row order",
+  "device": "cpu",
+  "batch_size": 4,
+  "embedding_seconds": 93.78155329199944,
+  "versions": {
+    "python": "3.12.13",
+    "sentence-transformers": "6.2.0",
+    "transformers": "5.21.0",
+    "torch": "2.14.1",
+    "numpy": "2.5.4",
+    "faiss": "1.15.1"
+  },
+  "artifacts": {
+    "embeddings": {
+      "path": "Phase2/DocumentBuilding/embeddings/chronoplay_minilm_document_embeddings_v1.npy",
+      "bytes": 6439040,
+      "sha256": "4afce382462db42ebc83424abb43f46974aaa228f8c0d7362d2f2b6a01b0b0c7"
+    },
+    "index": {
+      "path": "Phase2/DocumentBuilding/indexes/chronoplay_minilm_faiss_index_v1.faiss",
+      "bytes": 6438957,
+      "sha256": "8fc32e5f43c0313f4900a3149d241fd41f898939a5a460f1f9ef03c827013e3e"
+    },
+    "mapping": {
+      "path": "Phase2/DocumentBuilding/manifests/chronoplay_document_id_mapping_v1.csv",
+      "bytes": 174982,
+      "sha256": "e040b41657776df7d68cdd12fbb8b8ed9e4de19213c674f2816b14cc6c8fc958"
+    }
+  },
+  "smoke_tests": [
+    {
+      "smoke_id": "mechanics_01",
+      "query": "How does a player repair damaged equipment?",
+      "top5": [
+        {
+          "position": 1278,
+          "document_id": "0a88ab76-ddd2-4e0e-8314-6547bfc8ec5f",
+          "score": 0.5166090130805969
+        },
+        {
+          "position": 1655,
+          "document_id": "88ab038e-ce88-4bd7-9b01-6aca0ff7ca83",
+          "score": 0.4942324459552765
+        },
+        {
+          "position": 3363,
+          "document_id": "a9b29827-3942-43ec-aeff-0f6362a1b3fb",
+          "score": 0.4366309344768524
+        },
+        {
+          "position": 1760,
+          "document_id": "8ff442bd-4a3e-4e27-aecc-f214de284c12",
+          "score": 0.4316273033618927
+        },
+        {
+          "position": 1306,
+          "document_id": "0eb7260d-bfef-4b2b-b7b5-a135708ae7fa",
+          "score": 0.4191897511482239
+        }
+      ]
+    },
+    {
+      "smoke_id": "technical_01",
+      "query": "How can connection problems be troubleshot?",
+      "top5": [
+        {
+          "position": 2975,
+          "document_id": "04ddb827-8a32-4229-a931-c4dc4ca163e5",
+          "score": 0.539230227470398
+        },
+        {
+          "position": 10,
+          "document_id": "33b69279-d94b-46b6-b0e9-13c2d0e77d76",
+          "score": 0.3626648783683777
+        },
+        {
+          "position": 3662,
+          "document_id": "3772cb84-bf16-47af-9178-223cd16fb1f8",
+          "score": 0.36204323172569275
+        },
+        {
+          "position": 32,
+          "document_id": "ca799262-be56-48b6-97ef-1cae428ad739",
+          "score": 0.3597883880138397
+        },
+        {
+          "position": 0,
+          "document_id": "fa927758-3f31-4b93-be4a-8ef9810b4e81",
+          "score": 0.34250232577323914
+        }
+      ]
+    },
+    {
+      "smoke_id": "progression_01",
+      "query": "What are the steps to unlock a new ability?",
+      "top5": [
+        {
+          "position": 3811,
+          "document_id": "5bb32f62-3de0-464d-8cac-c4e01458f3b8",
+          "score": 0.3962629735469818
+        },
+        {
+          "position": 1841,
+          "document_id": "e495147b-40bc-4e4d-b098-435fa1682610",
+          "score": 0.3837736248970032
+        },
+        {
+          "position": 2566,
+          "document_id": "b5c9dcbf-9de2-47b2-9fd4-309b508c0c2e",
+          "score": 0.37391093373298645
+        },
+        {
+          "position": 3186,
+          "document_id": "96c27890-0d21-472d-a14c-5216502dd7ef",
+          "score": 0.35492610931396484
+        },
+        {
+          "position": 1138,
+          "document_id": "333f6b4c-77bc-462e-9353-91eadb0a2e25",
+          "score": 0.3520386219024658
+        }
+      ]
+    }
+  ]
+}

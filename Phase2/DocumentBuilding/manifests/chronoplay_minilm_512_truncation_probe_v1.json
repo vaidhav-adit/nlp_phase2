@@ -1,0 +1,29 @@
+{
+  "status": "TOKENIZER_ONLY_ANALYSIS_NOT_EMBEDDING_RUN",
+  "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "corpus_file": "ChronoPlay_Team_Handoff_v1/02_FROZEN_DATA/Corpus_4192_Gaming_Documents.csv",
+  "corpus_sha256": "9eafff952b571e4a06256c9cde5fd69bc4bf330ee2ba00accee389a3cbc49f3d",
+  "documents": 4192,
+  "token_count_definition": "Pinned tokenizer input length including 2 special tokens; max input length includes special tokens.",
+  "architecture_max_position_embeddings": 512,
+  "tokenizer_model_max_length": 512,
+  "model_repository_sentence_transformer_max_seq_length": 256,
+  "training_sequence_length_from_model_card": 128,
+  "comparison": {
+    "cap_256": {
+      "documents_truncated": 3225,
+      "percent_documents_truncated": 76.93225190839695,
+      "total_tokens_discarded": 920380,
+      "maximum_tokens_discarded_in_one_document": 2208
+    },
+    "cap_512": {
+      "documents_truncated": 1085,
+      "percent_documents_truncated": 25.88263358778626,
+      "total_tokens_discarded": 418185,
+      "maximum_tokens_discarded_in_one_document": 1952
+    }
+  },
+  "interpretation": "512 is within the underlying architecture limit and therefore is not too long structurally. It is above the repository configured 256 and its 128-token fine-tuning sequence length, so retrieval quality at 512 is unverified. This probe only measured tokenization; it did not alter the loaded model, compute embeddings, build an index, or evaluate retrieval.",
+  "artifacts_modified": []
+}

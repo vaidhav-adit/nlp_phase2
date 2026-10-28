@@ -1,0 +1,25 @@
+# Virtual Environments (machine-specific binaries & libraries)
+NLP/
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite
+logs/ipython/
+
+# Model & HuggingFace caches
+hf_cache/
+.cache/
+
+# Operating System & Editor files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.vscode/
+.idea/

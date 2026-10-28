@@ -1,0 +1,144 @@
+{
+  "manifest_name": "ChronoPlay-QA Corrected Split Manifest (Claude Verified)",
+  "random_seed": 42,
+  "split_target_proportions": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "usable_query_population": 223,
+  "excluded_query_ids": [
+    "4",
+    "13",
+    "43",
+    "47",
+    "108",
+    "146",
+    "165",
+    "195",
+    "198"
+  ],
+  "source_files": {
+    "queries": "FULL_queries_232.csv",
+    "corpus": "FULL_corpus_documents.csv",
+    "candidate_audit": "ChronoPlay_candidates_431_FINAL_AUDIT_CLAUDE_VERIFIED.csv",
+    "original_qrels": "CURRENT_qrels_usable.csv",
+    "final_qrels_version": "ChronoPlay_qrels_FINAL_CLAUDE_VERIFIED.csv"
+  },
+  "split_counts": {
+    "train": {
+      "queries": 156,
+      "qrels": 212,
+      "game_distribution": {
+        "dune": 34,
+        "dyinglight2": 60,
+        "pubgm": 62
+      },
+      "relevance_grade_distribution": {
+        "2": 190,
+        "1": 22
+      },
+      "queries_without_positive_qrel": 0,
+      "queries_without_any_qrel": 0
+    },
+    "validation": {
+      "queries": 33,
+      "qrels": 40,
+      "game_distribution": {
+        "dune": 7,
+        "dyinglight2": 13,
+        "pubgm": 13
+      },
+      "relevance_grade_distribution": {
+        "1": 6,
+        "2": 34
+      },
+      "queries_without_positive_qrel": 0,
+      "queries_without_any_qrel": 0
+    },
+    "test": {
+      "queries": 34,
+      "qrels": 42,
+      "game_distribution": {
+        "dune": 8,
+        "dyinglight2": 12,
+        "pubgm": 14
+      },
+      "relevance_grade_distribution": {
+        "2": 35,
+        "1": 7
+      },
+      "queries_without_positive_qrel": 0,
+      "queries_without_any_qrel": 0
+    }
+  },
+  "integrity_validation_results": {
+    "pairwise_disjoint_queries": true,
+    "union_equals_usable_queries": true,
+    "all_qrel_queries_in_split": true,
+    "all_qrel_docs_in_corpus": true,
+    "no_duplicate_qrels": true,
+    "split_qrel_union_exact": true,
+    "original_qrel_pairs_preserved": true,
+    "original_qrels_hash_unchanged_during_correction": true,
+    "original_qrels_sha256_at_start": "aca69d79a5616c49d7fe0fdb1ee4b191cef730c905173471ce094f9590bda213",
+    "original_qrels_sha256_at_end": "aca69d79a5616c49d7fe0fdb1ee4b191cef730c905173471ce094f9590bda213",
+    "historical_pre_task_hash_available": false
+  },
+  "dataset_status": {
+    "status": "FROZEN_CURRENT_AUDITED_DATASET",
+    "version": "ChronoPlay-QA Claude Verified v1.1",
+    "frozen_date": "2026-10-27",
+    "authoritative_qrels": "ChronoPlay_qrels_FINAL_CLAUDE_VERIFIED.csv",
+    "authoritative_candidate_audit": "ChronoPlay_candidates_431_FINAL_AUDIT_CLAUDE_VERIFIED.csv",
+    "limitations": [
+      "Negative candidate pairs were not all individually reviewed.",
+      "The split seed/procedure is not reproducible from the available files; existing assignments were structurally checked and retained.",
+      "One candidate pair remains unresolved: QID 223 × 1074_Game Modes."
+    ],
+    "original_artifacts_preserved": true
+  },
+  "experiment_time_protocol": {
+    "status": "READY_TO_EXPERIMENT",
+    "protocol_file": "ChronoPlay_RESEARCH_PROTOCOL_v1.md",
+    "effective_development_queries": 188,
+    "effective_development_qrels": 251,
+    "locked_test_queries": 34,
+    "locked_test_qrels": 42,
+    "experiment_time_exclusions": [
+      {
+        "query_id": "181",
+        "original_partition": "train",
+        "reason": "Near-duplicate of locked test QID 184: same unauthorized linked-login removal intent, near-identical answer and exact shared reference/source evidence. Quarantined from training, tuning, and evaluation; frozen qrel retained unchanged."
+      }
+    ],
+    "embedding_duplicate_check": {
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "threshold": 0.9,
+      "pairs": [
+        {
+          "qids": [
+            "113",
+            "118"
+          ],
+          "cosine_similarity": 0.954491,
+          "partition": "development"
+        },
+        {
+          "qids": [
+            "134",
+            "135"
+          ],
+          "cosine_similarity": 0.915173,
+          "partition": "development"
+        }
+      ],
+      "cross_boundary_pairs_after_exclusion": 0,
+      "locked_test_assignments_changed": false
+    },
+    "positive_qrel_coverage": {
+      "development_queries_without_positive": 0,
+      "test_queries_without_positive": 0
+    }
+  }
+}
